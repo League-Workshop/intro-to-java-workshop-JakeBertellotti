@@ -7,7 +7,19 @@ public class MyFirstJavaProgram {
 	
 	public static void main(String[] args) {
 		
-		// START HERE
+		Robot bb8= new Robot("batman");
+		bb8.sparkle();
+		bb8.setSpeed(500);
+		bb8.penDown();
+		for(int i = 0; i < 4; i++ ) { bb8.move(100);
+		bb8.turn(90);
+			
+		}
+		
+		
+
+		
+	
 	
 		
 		
