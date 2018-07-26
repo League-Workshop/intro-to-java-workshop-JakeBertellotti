@@ -1,22 +1,51 @@
 package section4;
 
+import java.util.Random;
+
+import javax.swing.JOptionPane;
+
 public class QuizGame {
 	
 	public static void main(String[] args) {
 		
-		// 1.  Create a variable to hold the user's score 
 		
-		// 2.  Ask the user a question 
+	int score = 0;
 		
-		// 3.  Use an if statement to check if their answer is correct
+String s = 	JOptionPane.showInputDialog("what is your name?")	;
 		
-		// 4.  if the user's answer is correct
+		if(s.equals("Jake")) {
+			JOptionPane.showInputDialog("Correct !");
+		score += 1;	}
 		
-		// -- add one to their score 
 		
-		// 5.  Create more questions by repeating steps 1, 2, and 3 below. 
 		
-		// 6.  After all the questions have been asked, print the user's score 
+String x = 	JOptionPane.showInputDialog("what is your favorite game ?")	;
+		
+		if(x.equals("fortnite")) {
+			JOptionPane.showInputDialog("Correct !");
+		score += 1;	}
+		
+		
+		
+		
+		
+		
+		
+String b = 	JOptionPane.showInputDialog("what is your favorite candy ?")	;
+		
+		if(b.equals("Sour patch kids")) {
+			JOptionPane.showInputDialog("Correct !");
+		score += 1;	}
+		
+		
+		
+		
+		
+			
+			
+		}
+	
+		
 		
 	}
-}
+
